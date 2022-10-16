@@ -115,7 +115,7 @@ int main()
                     T = F * r * sin(j);
                     printf("The magnitude of Torque is %f", T);
                     break;
-                case 3:
+                case 3: //To find the perpendicular distance
                     printf("To find Perpendicular distance(d) from axis of rotation\n");
                     printf("Enter the Magnitude of Force(F),(Torque) respectively.\n");
                     scanf("%f \n %f", &F, &T);
