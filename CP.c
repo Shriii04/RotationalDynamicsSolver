@@ -101,7 +101,7 @@ int main()
                 scanf("%d", &i);
                 switch (i)
                 {
-                case 1:
+                case 1: //To find the torque
                     printf("To find Torque\n");
                     printf("Enter the Magnitude of Force(F) and Perpendicular distance(d) from axis of rotation respectively.\n");
                     scanf("%f \n %f", &F, &d);
