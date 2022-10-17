@@ -101,7 +101,7 @@ int main()
                 scanf("%d", &i);
                 switch (i)
                 {
-                case 1:
+                case 1: //To find the torque
                     printf("To find Torque\n");
                     printf("Enter the Magnitude of Force(F) and Perpendicular distance(d) from axis of rotation respectively.\n");
                     scanf("%f \n %f", &F, &d);
@@ -115,21 +115,21 @@ int main()
                     T = F * r * sin(j);
                     printf("The magnitude of Torque is %f", T);
                     break;
-                case 3:
+                case 3: //To find the perpendicular distance
                     printf("To find Perpendicular distance(d) from axis of rotation\n");
                     printf("Enter the Magnitude of Force(F),(Torque) respectively.\n");
                     scanf("%f \n %f", &F, &T);
                     d = T / F;
                     printf("The Perpendicular distance(d) from axis of rotation is %f", d);
                     break;
-                case 4:
+                case 4: //To find magnitude of force
                     printf("To find Magnitude of force\n");
                     printf("Enter the Perpendicular distance(d) from axis of rotation,(Torque) respectively.\n");
                     scanf("%f \n %f", &d, &T);
                     F = T / d;
                     printf("The Magnitude of Force(F) %f", F);
                     break;
-                case 5:
+                case 5: //TO find Angle
                     printf("To find angle\n");
                     printf("Enter the Magnitude of Force(F),(Torque),position vector of particle(r) respectively.\n");
                     scanf("%f \n %f \n %f", &F, &T, &r);
@@ -203,7 +203,7 @@ int main()
                     omega_knot = theta / t - alpha * t / 2;
                     printf("Value of Initial angular velocity is %fm/s", omega_knot);
                     break;
-                case 7:
+                case 7: //To find Time
                     printf("To find Time.\n");
                     printf("Enter Angular displacement, Initial angular velocity and Angular acceleration\n");
                     scanf("%f \n %f \n %f", &theta, &omega_knot, &alpha);
@@ -223,7 +223,7 @@ int main()
                     else
                         printf("Roots are imaginary");
                     break;
-                case 8:
+                case 8: //To find the Angular acceleration
                     printf("To find Angular acceleration\n");
                     printf("Enter Angular displacement, Initial angular velocity and time\n");
                     scanf("%f \n %f \n %f", &theta, &omega_knot, &t);
