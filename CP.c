@@ -122,14 +122,14 @@ int main()
                     d = T / F;
                     printf("The Perpendicular distance(d) from axis of rotation is %f", d);
                     break;
-                case 4:
+                case 4: //To find magnitude of force
                     printf("To find Magnitude of force\n");
                     printf("Enter the Perpendicular distance(d) from axis of rotation,(Torque) respectively.\n");
                     scanf("%f \n %f", &d, &T);
                     F = T / d;
                     printf("The Magnitude of Force(F) %f", F);
                     break;
-                case 5:
+                case 5: //TO find Angle
                     printf("To find angle\n");
                     printf("Enter the Magnitude of Force(F),(Torque),position vector of particle(r) respectively.\n");
                     scanf("%f \n %f \n %f", &F, &T, &r);
@@ -203,7 +203,7 @@ int main()
                     omega_knot = theta / t - alpha * t / 2;
                     printf("Value of Initial angular velocity is %fm/s", omega_knot);
                     break;
-                case 7:
+                case 7: //To find Time
                     printf("To find Time.\n");
                     printf("Enter Angular displacement, Initial angular velocity and Angular acceleration\n");
                     scanf("%f \n %f \n %f", &theta, &omega_knot, &alpha);
